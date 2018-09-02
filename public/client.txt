@@ -1,0 +1,2 @@
+Client: Vital;Phone: 234242; Date and time: 10.12.2018
+Client: Andrey;Phone: 2454454; Date and time: 11.12.2018
