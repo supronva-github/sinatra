@@ -23,6 +23,7 @@ post '/admin' do
   @login = params[:login]
   @password = params[:password]
   if @login == "admin" && @password == "password"
+    @client_file = File.open('./public/client.txt','r')
     erb :clients
   else
     erb :error
