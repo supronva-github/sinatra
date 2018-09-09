@@ -1,7 +1,12 @@
 <h1>Hello</h1>
 <form action='\' method='POST'>
-  <p>Your Name: <input type='text' name='username'></p>
-  <p>Your Phonei: <input type='text' name='phone'></p>
-  <p>Date of visit: <input type='text' name='date'></p>      
+  <p>Your Name: <input type='text' name='username' value='<%= @user_name %>'></p>
+  <p>Your Phonei: <input type='text' name='phone' value='<%= @phone %>'></p>
+  <p>Date of visit: <input type='text' name='date' value='<%= @date %>'></p>      
+  <select name='barber'>
+    <option <%= @barber=='FF'?'selected':''%>>FF</option>
+    <option <%= @barber=='AA'?'selected':''%>>AA</option>
+    <option <%= @barber=='EE'?'selected':''%>>EE</option>
+  </select>
   <input type='submit' value='Send'>
 </form> 

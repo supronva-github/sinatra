@@ -1,2 +1,8 @@
 Client: Vital;Phone: 234242; Date and time: 10.12.2018
 Client: Andrey;Phone: 2454454; Date and time: 11.12.2018
+Client: Kate;Phone: 35353535; Date and time: 11.10.2018, barber: 1
+Client: Nate;Phone: 43343433; Date and time: 13.10.2017, barber: AA
+Client: Dima;Phone: 3948858; Date and time: 02.04.2018, barber: AA
+Client: adne;Phone: ; Date and time: , barber: FF
+Client: sdsd;Phone: ; Date and time: , barber: EE
+Client: ;Phone: ; Date and time: , barber: EE
